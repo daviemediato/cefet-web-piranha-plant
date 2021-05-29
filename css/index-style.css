@@ -43,11 +43,12 @@ img {
 }
 
 p::selection,
-h2::selection,
 h1::selection,
-q::selection,
+h2::selection,
+a::selection,
+b::selection,
+em::selection,
 blockquote::selection,
-em::selection
- {
+q::selection {
 	background: yellow;
 }
