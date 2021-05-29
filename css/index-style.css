@@ -29,10 +29,6 @@ img {
     margin-right: auto;
 }
 
-#marcaTexto {
-    background-color: yellow;
-}
-
 #citacaoItalico{
     font-style: italic;
     text-align: justify;
@@ -46,3 +42,12 @@ img {
     background-image: url('../imagens/fundo.png');
 }
 
+p::selection,
+h2::selection,
+h1::selection,
+q::selection,
+blockquote::selection,
+em::selection
+ {
+	background: yellow;
+}
