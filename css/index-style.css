@@ -29,14 +29,18 @@ img {
     margin-right: auto;
 }
 
-#citacaoItalico{
+.font-style-italic {
+    font-style: italic;
+}
+
+#citacao-italico{
     font-style: italic;
     text-align: justify;
     margin-left: 3.75rem;
     margin-right: 0;
 }
 
-#voceSabia{
+#voce-sabia{
     padding: 0.6rem;
     border: 0.19rem solid limegreen;
     background-image: url('../imagens/fundo.png');
