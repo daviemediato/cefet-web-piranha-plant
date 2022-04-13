@@ -18,7 +18,7 @@ h1 {
 }
 
 table {
-    width: 600px;
+    width: 37.5rem;
     text-align: center;
     margin:auto;
     border-collapse: collapse;
@@ -30,5 +30,5 @@ thead{
 }
 
 td, th {
-    border: 1px solid black;
+    border: 0.06rem solid black;
 }
